@@ -18,5 +18,5 @@ print(sorted_names)
 
 c = 1
 for i in sorted_names:
-    print(f"{c}. {str.title(decoded_names[i[0]])}")
+    print(f"{c}. {decoded_names[i[0]].title()}")
     c += 1
